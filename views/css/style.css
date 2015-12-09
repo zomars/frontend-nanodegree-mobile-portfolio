@@ -49,3 +49,46 @@ form {
  .container {
   background-color: rgba(240, 60, 60, 0.8);
 }
+
+.media {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.media .media-figure {
+  width: 25%;
+  margin-right: 2%;
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.intrinsic {
+  display: block;
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-top: 100%;
+  background: #f0f0f0;
+}
+.intrinsic.intrinsic--square {
+  padding-top: 100%;
+}
+.intrinsic.intrinsic--4x3 {
+  padding-top: 75%;
+}
+.intrinsic.intrinsic--16x9 {
+  padding-top: 56.25%;
+}
+.intrinsic .intrinsic-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
