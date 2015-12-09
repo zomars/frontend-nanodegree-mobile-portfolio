@@ -4,6 +4,10 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 
 To get started, check out the repository, inspect the code,
 
+### Project demo
+
+You can preview this project [here](http://zomars.github.io/frontend-nanodegree-mobile-portfolio/).
+
 ### Getting started
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
