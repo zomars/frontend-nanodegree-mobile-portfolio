@@ -8,6 +8,35 @@ To get started, check out the repository, inspect the code,
 
 You can preview this project [here](http://zomars.github.io/frontend-nanodegree-mobile-portfolio/).
 
+##Portfolio Index
+
+In general, followed page speed insights recommendations.
+
+The following performance implementations were realized:
+
+- Image Minification
+– CSS inlining
+- CSS & Javascript minification
+- HTML Minification
+
+Images were manually minified and reduced were necessary.
+
+##60 FPS, Main.js
+
+- Moved capitalization function from String.prototype.capitalize to a css rule
+- De-nested the following function delcarations:
+    * changleSliderLabel
+    * determineDx
+    * changePizzaSizes
+    * sizedSwitcher
+- Moved DOM queries out of loops where it was necessary
+- Debounced onScroll Animation
+- Switched for loops to cached versions if applicable
+- Switched animation CSS to translateX property for better performance
+- Switched # of moving pizzas to a calculated value based on availwidth & availheight to reduce overall count
+- Replaced querySelector & querySelectorAll with their more performant counterparts where applicable.
+- Added translate3d property to moving pizza elements to force 3d acceleration
+
 ### Getting started
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
